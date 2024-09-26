@@ -9,14 +9,11 @@ namespace Tyuiu.KhvorykhVA.Sprint1.Task3.V12.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            double x = 2;
-            double y = 3;
-            double wait = 6;
+            double x = 4;
+            double y = 6;
+            double expected = 12; 
             var res = ds.TriangleArea(x, y);
-            Assert.AreEqual(wait, res);
-
-
-
+            Assert.AreEqual(expected, res);
         }
     }
 }
