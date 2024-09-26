@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Tyuiu.KhvorykhVA.Sprint1.Task2.V24.Lib;
 
 namespace Tyuiu.KhvorykhVA.Sprint1.Task2.V24
@@ -26,17 +22,6 @@ namespace Tyuiu.KhvorykhVA.Sprint1.Task2.V24
 
             Console.WriteLine("Квадрат разницы = " + ds.CalculateDiffSquare(x, y));
             Console.ReadKey();
-
-
         }
-
-
-
     }
-
-
-
-
-
-
 }
