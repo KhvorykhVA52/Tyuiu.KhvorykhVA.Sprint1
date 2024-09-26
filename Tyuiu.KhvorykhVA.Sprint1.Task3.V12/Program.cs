@@ -25,7 +25,6 @@ namespace Tyuiu.KhvorykhVA.Sprint1.Task3.V12
             double area = (a * b) / 2;
             area = Math.Round(area, 3);
             Console.WriteLine("Площадь прямоугольного треугольника = " + area);
-
             Console.ReadKey();
 
 
