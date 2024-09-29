@@ -1,34 +1,36 @@
 ﻿using Tyuiu.KhvorykhVA.Sprint1.Task7.V30.Lib;
+
 namespace Tyuiu.KhvorykhVA.Sprint1.Task7.V30
 {
-    class Program
+    
+
+    namespace Tyuiu.KhvorykhVA.Sprint1.Task7.V30
     {
-        static void Main(string[] args)
+        class Program
         {
-            DataService ds = new DataService();
+            static void Main(string[] args)
+            {
+                DataService ds = new DataService();
 
-            // Заголовок программы
-            Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
-            Console.WriteLine("***************************************************************************");
-            Console.WriteLine("                   5   3          4    ");
-            Console.WriteLine("              sinx + x +         y     ");
-            Console.WriteLine("               -------------  + ----   ");
-            Console.WriteLine(" z = x + e^x +      3^x           5       ");
+                Console.WriteLine("***************************************************************************");
+                Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
+                Console.WriteLine("***************************************************************************");
+                Console.WriteLine("                   5   3          5    ");
+                Console.WriteLine("              sinx + x +         y     ");
+                Console.WriteLine("               -------------  + ----   ");
+                Console.WriteLine(" z = x + e^x +      3^x           5y      ");
 
+                double x = 1.7;
+                double y = 2.1;  
 
-            Console.WriteLine("Введите значение: X");
-            double x = Convert.ToDouble(Console.ReadLine());
+                Console.WriteLine($"Значение X: {x}, Значение Y: {y}");
+                Console.WriteLine("***************************************************************************");
+                Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
+                Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Введите значение: Y");
-            double y = Convert.ToDouble(Console.ReadLine());
-
-            Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
-            Console.WriteLine("***************************************************************************");
-
-
-            Console.WriteLine(ds.Calculate(x, y));
+                Console.WriteLine(ds.Calculate(x, y));
+            }
         }
     }
+
 }

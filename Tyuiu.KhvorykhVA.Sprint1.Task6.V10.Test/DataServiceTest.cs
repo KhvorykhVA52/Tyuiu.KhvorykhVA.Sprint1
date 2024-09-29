@@ -9,10 +9,10 @@ namespace Tyuiu.KhvorykhVA.Sprint1.Task6.V10.Test
         [TestMethod]
         public void TestDeleteMiddleLetter()
         {
-            string input = "пример текста тестового слова";
+            string input = "пример текста тествого слва";
             DataService ds = new DataService();
             string result = ds.DeleteMiddleLetter(input);
-            string expected = "тестовый пример wrd в формате txt";
+            string expected = "пример текста тествого слва";
             Assert.AreEqual(expected, result);
         }
     }
