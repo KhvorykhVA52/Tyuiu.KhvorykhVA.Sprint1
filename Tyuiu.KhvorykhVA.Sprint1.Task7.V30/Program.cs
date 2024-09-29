@@ -19,9 +19,9 @@ namespace Tyuiu.KhvorykhVA.Sprint1.Task7.V30
             double x, y;
 
             Console.WriteLine("Введите значение: X");
-            x = Convert.ToDouble(Console.ReadLine()); 
+            x = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Введите значение: Y");
-            y = Convert.ToDouble(Console.ReadLine()); 
+            y = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");

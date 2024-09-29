@@ -8,11 +8,11 @@ namespace Tyuiu.KhvorykhVA.Sprint1.Task7.V30.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            double x = 2;
-            double y = 4;
+            double x = 1.7;
+            double y = 2.1;
             double expected = ds.Calculate(x, y);
             double result = ds.Calculate(x, y);
-            Assert.AreEqual(expected, result, 0.001); 
+            Assert.AreEqual(expected, result, 0.001);
         }
     }
 }
