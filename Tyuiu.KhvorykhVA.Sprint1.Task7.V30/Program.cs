@@ -1,6 +1,4 @@
-﻿using System;
-using Tyuiu.KhvorykhVA.Sprint1.Task7.V30.Lib;
-
+﻿using Tyuiu.KhvorykhVA.Sprint1.Task7.V30.Lib;
 namespace Tyuiu.KhvorykhVA.Sprint1.Task7.V30
 {
     class Program
@@ -8,6 +6,7 @@ namespace Tyuiu.KhvorykhVA.Sprint1.Task7.V30
         static void Main(string[] args)
         {
             DataService ds = new DataService();
+
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
@@ -20,13 +19,15 @@ namespace Tyuiu.KhvorykhVA.Sprint1.Task7.V30
 
             Console.WriteLine("Введите значение: X");
             x = Convert.ToDouble(Console.ReadLine());
+
             Console.WriteLine("Введите значение: Y");
             y = Convert.ToDouble(Console.ReadLine());
+
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
+
             Console.WriteLine(ds.Calculate(x, y));
-            Console.ReadKey();
         }
     }
 }
