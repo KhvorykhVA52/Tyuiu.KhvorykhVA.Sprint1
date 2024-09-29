@@ -9,7 +9,7 @@ namespace Tyuiu.KhvorykhVA.Sprint1.Task7.V30.Test
         {
             DataService ds = new DataService();
             double x = 2;
-            double y = 3;
+            double y = 4;
             double expected = ds.Calculate(x, y);
             double result = ds.Calculate(x, y);
             Assert.AreEqual(expected, result, 0.001); 
