@@ -1,5 +1,7 @@
 ﻿
 using tyuiu.cources.programming.interfaces.Sprint1;
+using System;
+
 namespace Tyuiu.KhvorykhVA.Sprint1.Task7.V30
 {
     public class DataService : ISprint1Task7V30
@@ -14,3 +16,4 @@ namespace Tyuiu.KhvorykhVA.Sprint1.Task7.V30
         }
     }
 }
+
