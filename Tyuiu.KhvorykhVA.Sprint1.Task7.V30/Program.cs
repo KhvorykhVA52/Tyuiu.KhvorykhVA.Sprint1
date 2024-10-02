@@ -1,5 +1,5 @@
-﻿using Tyuiu.KhvorykhVA.Sprint1.Task7.V30.Lib;
-
+﻿
+using Tyuiu.KhvorykhVA.Sprint1.Task7.V30.Lib;
 
 namespace Tyuiu.KhvorykhVA.Sprint1.Task7.V30
 {
@@ -49,7 +49,3 @@ namespace Tyuiu.KhvorykhVA.Sprint1.Task7.V30
         }
     }
 }
-
-
-
-
