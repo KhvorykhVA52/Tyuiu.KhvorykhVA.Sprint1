@@ -5,19 +5,19 @@ namespace Tyuiu.KhvorykhVA.Sprint1.Task7.V30.Lib
     {
         public double Calculate(double x, double y)
         {
-            double firstPart = x + Math.Exp(x);
-
-            double sinX5 = Math.Sin(Math.Pow(x, 5));
-            double xCubed = Math.Pow(x, 3); 
-            double threePowX = Math.Pow(3, x); 
-            double secondPart = (sinX5 + xCubed) / threePowX;
-
-            double thirdPart = Math.Pow(y, 5) / (5 * y);
-
-            double z = firstPart + secondPart + thirdPart;
 
 
-            return Math.Round(z, 3);
+            double z = x + Math.Exp(x) + (Math.Pow(x, 3) + Math.Sin(Math.Pow(x, 5))) / Math.Pow(3, x) + Math.Pow(y, 5) / Math.Pow(5, y);
+
+            double zR = Math.Round(z, 3);
+
+
+            return zR;
+
+
+
+
+
         }
     }
 }
